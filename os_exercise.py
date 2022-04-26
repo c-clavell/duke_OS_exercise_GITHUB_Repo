@@ -32,10 +32,9 @@ def walkOS(path):
         if len(dir) > 0:
             for i in dir:
                 pathxx=os.path.join(root, i)
-                walkOS(pathxx)
+                walkOS(pathxx)              ##### recursive call
 
-            # for i in dir:
-            #     for
+            
         break
 
 

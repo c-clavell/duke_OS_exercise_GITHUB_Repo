@@ -9,3 +9,11 @@ to get the root path and the names of the directories and file. The os.path.gets
 The name of the file, type and size are appended to a list. 
 The program puts the list's data into a sql table.
 Using many different sql queries some details of the files found are displayed: Number of files,larget file, smallest file and a list of the types of files found.
+
+
+
+RESULTS:
+Number of files: 100
+Largest File: Mili - sustain++_QR.mp4  53.925851MB
+Smallest File: New Text Document.txt  0.0MB
+Type of files found: [('.mp4', 28), ('.mp3', 2), ('.JPG', 3), ('.3gpp', 2), ('.py', 3), ('.png', 19), ('.idx', 1), ('.md', 1), ('.pack', 1), ('.sample', 13), ('.xml', 2), ('.pyc', 1), ('.rar', 1), ('', 21), ('.txt', 2)]
